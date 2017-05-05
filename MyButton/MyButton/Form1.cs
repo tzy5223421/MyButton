@@ -24,9 +24,10 @@ namespace MyButton
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            GraphicsPath gp = new GraphicsPath();
-            gp.AddArc(0, 0, 100, 100, 180, 90);
-            e.Graphics.DrawPath(new Pen(Color.Black, 1), gp);
+        }
+        private void rectangleRoundButton1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("嗨，我是圆角矩形按键");
         }
     }
 }
